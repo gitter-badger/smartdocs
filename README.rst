@@ -1,6 +1,10 @@
 *****************************
 Homestead-Guide
 *****************************
+
+.. image:: https://badges.gitter.im/smart-docs/Lobby.svg
+   :alt: Join the chat at https://gitter.im/smart-docs/Lobby
+   :target: https://gitter.im/smart-docs/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 |License| |Gitter|
 
 .. |License| image:: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
