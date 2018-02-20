@@ -1,0 +1,7 @@
+{
+     "restructuredtext.linter.run": "onType",
+    "restructuredtext.linter.sphinxDirectives": ["toctree"],
+    "restructuredtext.linter.sphinxTextRoles": ["doc", "ref"],
+    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/build/html",
+    "restructuredtext.confPath"               : "${workspaceRoot}/source"
+}
