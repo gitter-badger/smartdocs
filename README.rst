@@ -73,7 +73,7 @@ RESOURCES
 **Homestead**
 
 * Homestead Guide online: https://smart-docs.readthedocs.io/en/latest/index.html
-* Github: https://github.com/ethereum/homestead-guide
+* Github: https://github.com/hoangton/smartdocs
 * Gitter: https://gitter.im/ethereum/homestead-guide
 * Google doc: https://docs.google.com/document/d/1rVjrNgaDRAQdPp4rGqWrEk5fPgiHff0xsYGCyf06oM8/edit
 
