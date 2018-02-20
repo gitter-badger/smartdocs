@@ -46,7 +46,7 @@ Smart supply
 Getting Smart
 ================================================================================
 
-Please see this page `here <https://github.com/ethereum/wiki/wiki/Getting-Ether>_.
+Please see this page `here <https://github.com/ethereum/wiki/wiki/Getting-Ether>`_.
 
 Sending Smart
 ================================================================================

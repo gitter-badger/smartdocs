@@ -54,9 +54,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Ethereum Homestead'
-copyright = u'2016, Ethereum community'
-author = u'Ethereum community'
+project = u'SmartCash Homestead'
+copyright = u'2018, SmartCash community'
+author = u'SmartCash community'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -234,8 +234,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'homesteadguide.tex', u'Ethereum Homestead Documentation',
-   u'Ethereum community', 'manual'),
+  (master_doc, 'homesteadguide.tex', u'SmartCash Homestead Documentation',
+   u'SmartCash community', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -264,7 +264,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'homesteadguide', u'Ethereum Homestead Documentation',
+    (master_doc, 'homesteadguide', u'SmartCash Homestead Documentation',
      [author], 1)
 ]
 
@@ -278,7 +278,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'homesteadguide', u'Ethereum Homestead Documentation',
+  (master_doc, 'homesteadguide', u'SmartCash Homestead Documentation',
    author, 'homesteadguide', 'One line description of project.',
    'Miscellaneous'),
 ]
