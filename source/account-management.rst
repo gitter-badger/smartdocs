@@ -7,17 +7,17 @@ Account Management
 Accounts
 ================================================================================
 
-Accounts play a central role in Ethereum. There are two types of accounts: *externally owned accounts* (EOAs) and *contract accounts*. Here we focus on externally owned accounts, which will be referred to simply as *accounts*. Contract accounts will be referred to as *contracts* and are :ref:`discussed in detail in Contracts <Contracts>`. This generic notion of account subsuming both externally owned accounts and contracts is justified in that these entities are so called *state objects*. These entities have a state: accounts have balance and contracts have both balance and contract storage. The state of all accounts is the state of the Ethereum network which is updated with every block and which the network really needs to reach a consensus about.
-Accounts are essential for users to interact with the Ethereum blockchain via transactions.
+Accounts play a central role in SmartCash. There are two types of accounts: *externally owned accounts* (EOAs) and *contract accounts*. Here we focus on externally owned accounts, which will be referred to simply as *accounts*. Contract accounts will be referred to as *contracts* and are :ref:`discussed in detail in Contracts <Contracts>`. This generic notion of account subsuming both externally owned accounts and contracts is justified in that these entities are so called *state objects*. These entities have a state: accounts have balance and contracts have both balance and contract storage. The state of all accounts is the state of the Ethereum network which is updated with every block and which the network really needs to reach a consensus about.
+Accounts are essential for users to interact with the SmartCash blockchain via transactions.
 
-If we restrict Ethereum to only externally owned accounts and allow only transactions between them, we arrive at an "altcoin" system that is less powerful than bitcoin itself and can only be used to transfer ether.
+If we restrict SmartCash to only externally owned accounts and allow only transactions between them, we arrive at an "altcoin" system that is less powerful than bitcoin itself and can only be used to transfer ether.
 
 Accounts represent identities of external agents (e.g., human personas, mining nodes or automated agents). Accounts use public key cryptography to sign transaction so that the EVM can securely validate the identity of a transaction sender.
 
 Keyfiles
 ================================================================================
 
-Every account is defined by a pair of keys, a private key and public key. Accounts are indexed by their *address* which is derived from the public key by taking the last 20 bytes. Every private key/address pair is encoded in a *keyfile*. Keyfiles are JSON text files which you can open and view in any text editor. The critical component of the keyfile, your account’s private key, is always encrypted, and it is encrypted with the password you enter when you create the account. Keyfiles are found in the ``keystore`` subdirectory of your Ethereum node’s data directory. Make sure you backup your keyfiles regularly! See the section :ref:`backup-and-restore-accounts` for more information.
+Every account is defined by a pair of keys, a private key and public key. Accounts are indexed by their *address* which is derived from the public key by taking the last 20 bytes. Every private key/address pair is encoded in a *keyfile*. Keyfiles are JSON text files which you can open and view in any text editor. The critical component of the keyfile, your account’s private key, is always encrypted, and it is encrypted with the password you enter when you create the account. Keyfiles are found in the ``keystore`` subdirectory of your SmartCash node’s data directory. Make sure you backup your keyfiles regularly! See the section :ref:`backup-and-restore-accounts` for more information.
 
 Creating a key is tantamount to creating an account.
 
@@ -28,7 +28,7 @@ Creating a key is tantamount to creating an account.
 
 Of course your new account will not contain any Ether. But it'll be yours and you can be certain that without your key and your password, nobody else can ever access it.
 
-It is safe to transfer the entire directory or any individual keyfile between Ethereum nodes.
+It is safe to transfer the entire directory or any individual keyfile between SmartCash nodes.
 
 .. Warning:: Note that in case you are adding keyfiles to your node from a different node, the order of accounts may change. So make sure you do not rely or change the index in your scripts or code snippets.
 
@@ -100,7 +100,7 @@ In order to create a new account using geth, we must first start geth in console
   instance: Geth/v1.4.0-unstable/linux/go1.5.1
   coinbase: coinbase: [object Object]
   at block: 865174 (Mon, 18 Jan 2016 02:58:53 GMT)
-  datadir: /home/USERNAME/.ethereum
+  datadir: /home/USERNAME/.smartcash
 
 The console allows you to interact with your local node by issuing commands. For example, try the command to list your accounts:
 
@@ -141,11 +141,11 @@ For the command line averse, there is now a GUI-based option for creating accoun
 
 .. Warning:: The Mist wallet is beta software. Please beware and use it at your own risk.
 
-Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In fact, your first account is created during the installation of the app.
+Creating an account using the GUI Mist SmartCash wallet couldn’t be easier. In fact, your first account is created during the installation of the app.
 
 1. `Download the latest version of the wallet app <https://github.com/ethereum/mist/releases>`_  for your operating system. Opening the Wallet App will kick off syncing a full copy of the Ethereum blockchain on your computer, since you will in effect be running a full geth node.
 
-2. Unzip the downloaded folder and run the Ethereum-Wallet executable file.
+2. Unzip the downloaded folder and run the SmartCash-Wallet executable file.
 
 .. image:: img/51Downloading.png
    :width: 582px
@@ -156,7 +156,7 @@ Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In 
 
 3. Wait for the blockchain to fully sync, then follow the instructions on the screen and your first account will be created.
 
-4. When you launch the Mist Ethereum wallet for the first time, you will see the account you created during the installation process. By default it will be named MAIN ACCOUNT (ETHERBASE).
+4. When you launch the Mist SmartCash wallet for the first time, you will see the account you created during the installation process. By default it will be named MAIN ACCOUNT (ETHERBASE).
 
 .. image:: img/51OpeningScreen.png
    :width: 1024px
@@ -173,7 +173,7 @@ Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In 
 Creating a Multi-Signature Wallet in Mist
 --------------------------------------------------------------------------------
 
-The Mist Ethereum wallet has an option to secure your wallet balance with a multisig wallet. The advantage of using a multisig wallet is that it requires authorization from more than one account to withdraw larger amounts from your balance. Before you can create a multisig wallet, you'll need to create more than one account.
+The Mist SmartCash wallet has an option to secure your wallet balance with a multisig wallet. The advantage of using a multisig wallet is that it requires authorization from more than one account to withdraw larger amounts from your balance. Before you can create a multisig wallet, you'll need to create more than one account.
 
 It's very easy to create account files in Mist. In the 'Accounts' section click 'Add Account'. Pick a strong yet easy-to-remember password (remember there is no password recovery option), confirm it, and your account is created. Create at least 2 accounts. Secondary accounts can be created on separate computers running Mist if you prefer (and theoretically make your multisig more secure doing it this way). You only need the public keys (your deposit addresses) of your secondary accounts when creating the multisig wallet (copy/paste them, do not ever type them by hand). Your primary account will be needed to create the multisig wallet contract, so it must be on the computer you are creating the multisig wallet on.
 

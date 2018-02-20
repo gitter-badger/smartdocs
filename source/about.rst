@@ -9,10 +9,10 @@ The Homestead Documentation Initiative
 Purpose and Audience
 ===============================================================================
 
-This guide should serve to be an entry level for all Ethereum users and developers.
-The goal is to create documentation with information, short tutorials, and examples that will cover all of the basic and intermediate functionality of using Ethereum to interact with dapps or develop a dapp.
+This guide should serve to be an entry level for all SmartCash users and developers.
+The goal is to create documentation with information, short tutorials, and examples that will cover all of the basic and intermediate functionality of using SmartCash to interact with dapps or develop a dapp.
 
-Any information that is overly specific, technical, or not necessary to accomplish the documentation's goal will remain on the Ethereum Github Wiki. It may be referenced in this guide if necessary.
+Any information that is overly specific, technical, or not necessary to accomplish the documentation's goal will remain on the SmartCash Github Wiki. It may be referenced in this guide if necessary.
 
 Although much of the information will be similar between the Frontier Guide and the Homestead Guide, efforts need to be made to make sure the information ported over is still accurate.
 This document is client agnostic, and examples and tutorials may be based on any client that the author decides to write on, as long as a distinction is made as to what client is being used in the examples/tutorials.
@@ -31,9 +31,9 @@ Here are some examples of previous Ethereum documentation + good examples of doc
 
 * Solidity Docs - https://ethereum.github.io/solidity/docs/home/
 * Frontier Guide - https://ethereum.gitbooks.io/frontier-guide/content/
-* Gav’s TurboEthereum Guide - https://gavofyork.gitbooks.io/turboethereum/content/
-* Ancient EthereumBuilder’s Guide - https://ethereumbuilders.gitbooks.io/guide/content/en/index.html
-* Other Ethereum Links: https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html
+* Gav’s TurboSmartCashGuide - https://gavofyork.gitbooks.io/turboethereum/content/
+* Ancient SmartCashBuilder’s Guide - https://ethereumbuilders.gitbooks.io/guide/content/en/index.html
+* Other SmartCash Links: https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html
 * Django Docs - https://docs.djangoproject.com/en/1.9/
 
 Restructured Text Markup, Sphinx
@@ -72,12 +72,12 @@ Fix section delimiter lines (always use 80-long ones to have correct length, unl
 Referencing Old Documentation
 ===============================================================================
 
-old-docs-for-reference folder has all of the Frontier Gitbook and Ethereum Wiki doc. Feel free to copy/paste information from those documents that is still relevant.
+old-docs-for-reference folder has all of the Frontier Gitbook and SmartCash Wiki doc. Feel free to copy/paste information from those documents that is still relevant.
 
 Migrate and Convert Old Wiki Content Using Pandoc
 ===============================================================================
 
-If you still want to clone the absolute latest Ethereum Wiki and Frontier Guide docs:
+If you still want to clone the absolute latest SmartCash Wiki and Frontier Guide docs:
 
 .. code-block:: bash
 

@@ -6,15 +6,15 @@
 SmartCash Homestead Documentation
 ===============================================================================
 
-..  image:: img/ethereum-homestead-documentation-logo.png
-..   :height: 500px
-..   :width: 394 px
+..  image:: img/smartcash-homestead-documentation-logo.png
+..   :height: 197px
+..   :width: 350 px
    :scale: 50 %
-   :alt: ethereum-logo
+   :alt: smartcash-logo
    :align: center
 
 This documentation is the result of an ongoing collaborative effort by
-volunteers from the Ethereum :ref:`community`.  Although it has not been
+volunteers from the SmartCash :ref:`community`.  Although it has not been
 authorized by the :ref:`foundation`, we hope you will find it useful.
 We welcome new :ref:`contributors`.
 
@@ -41,4 +41,4 @@ Contents
 Improve the Documentation
 ===============================================================================
 
-See `this page <https://ethereum-homestead.readthedocs.org/en/latest/about.html>`__ to help us improve the documentation.
+See `this page <https://smart-docs.readthedocs.io/en/latest/about.html>`__ to help us improve the documentation.

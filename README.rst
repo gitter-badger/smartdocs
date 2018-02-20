@@ -9,9 +9,9 @@ Homestead-Guide
 .. |Gitter| image:: https://badges.gitter.im/ethereum/homestead-guide.svg
    :target: https://gitter.im/ethereum/homestead-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
    
-The Ethereum Homestead Guide is the reference documentation accompanying the Homestead release of the Ethereum project.
+The SmartCash Homestead Guide is the reference documentation accompanying the Homestead release of the SmartCash project.
 
-`Hosted on ReadTheDocs`_
+`Hosted on ReadTheDocs`
 
 HOW YOU CAN HELP
 ================================================================================
@@ -21,13 +21,13 @@ It doesn't matter if you are a beginner or an expert, there are many ways to hel
 
 Write Content to the Guide
 --------------------------------------------------------------------------------
-Help transfer and update content from the Ethereum Wiki, Ethereum Frontier Guide, the Ethereum Stack Exchange, or any other reputable source to relevant pages of the Homestead guide. Alternatively, write your own content for the guide based on experience.
+Help transfer and update content from the SmartCash Wiki, SmartCash Frontier Guide, the SmartCash Stack Exchange, or any other reputable source to relevant pages of the Homestead guide. Alternatively, write your own content for the guide based on experience.
 
-Make sure the documentation you are porting over is still accurate and follows our guidelines for the Homestead docs (https://ethereum-homestead.readthedocs.org/en/latest/about.html).
+Make sure the documentation you are porting over is still accurate and follows our guidelines for the Homestead docs (https://smart-docs.readthedocs.io/en/latest/about.html).
 
 Review What Has Been Written
 --------------------------------------------------------------------------------
-Have a look at our guide (https://ethereum-homestead.readthedocs.org/en/latest/) and give us feedback by visiting our Gitter Chatroom (https://gitter.im/ethereum/homestead-guide) or submit a pull request or issue to this repo. Too EZ.
+Have a look at our guide (https://smart-docs.readthedocs.io/en/latest/) and give us feedback by visiting our Gitter Chatroom (https://gitter.im/ethereum/homestead-guide) or submit a pull request or issue to this repo. Too EZ.
 
 What's In It For Me?
 --------------------------------------------------------------------------------
@@ -72,16 +72,16 @@ RESOURCES
 
 **Homestead**
 
-* Homestead Guide online: https://ethereum-homestead.readthedocs.org/en/latest/index.html
+* Homestead Guide online: https://smart-docs.readthedocs.io/en/latest/index.html
 * Github: https://github.com/ethereum/homestead-guide
 * Gitter: https://gitter.im/ethereum/homestead-guide
 * Google doc: https://docs.google.com/document/d/1rVjrNgaDRAQdPp4rGqWrEk5fPgiHff0xsYGCyf06oM8/edit
 
 **Legacy Docs**
 
-* Ethereum Wiki: https://github.com/ethereum/wiki/wiki
+* SmartCash Wiki: https://github.com/ethereum/wiki/wiki
 * Frontier Guide: https://ethereum.gitbooks.io/frontier-guide/content/ (see below for converted files)
-* Souptacular's Giant List of Ethereum Resources: https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html
+* Souptacular's Giant List of SmartCash Resources: https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/giant_ethereum_resource_list.html
 
 **Read the Docs and Sphinx**
 
@@ -132,4 +132,4 @@ Strategy for migrating old fronter-guide content (Old)
 * include the rst conversion of the wiki
 * include the rst conversion of the gitbook
 
-.. _Hosted on ReadTheDocs: https://ethereum-homestead.readthedocs.org/en/latest/
+.. _Hosted on ReadTheDocs: https://smart-docs.readthedocs.io/en/latest/

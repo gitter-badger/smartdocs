@@ -59,7 +59,7 @@ Glossary
       Stands for "decentralized application". Some say it is pronounced Ethapp due to the use of the `uppercase eth letter Ð <gl:eth-letter>`_.
 
    address
-      An Ethereum address represents an account. For EOA_, the address is derived as the last 20 bytes of the public key controlling the account, e.g., ``cd2a3d9f938e13cd947ec05abc7fe734df8dd826``. This is a hexadecimal_ format (base 16 notation), which is often indicated explicitly by appending ``0x`` to the address. Web3.js and console functions accept addresses with or  without this prefix but for transparency we encourage their use. Since each byte of the address is represented by 2 hex characters, a prefixed address is  42 characters long. Several apps and APIs are also meant to implement the new `checksum-enabled address scheme <https://github.com/ethereum/EIPs/issues/55>`_  introduced in the Mist Ethereum wallet as of version 0.5.0.
+      An SmartCash address represents an account. For EOA_, the address is derived as the last 20 bytes of the public key controlling the account, e.g., ``cd2a3d9f938e13cd947ec05abc7fe734df8dd826``. This is a hexadecimal_ format (base 16 notation), which is often indicated explicitly by appending ``0x`` to the address. Web3.js and console functions accept addresses with or  without this prefix but for transparency we encourage their use. Since each byte of the address is represented by 2 hex characters, a prefixed address is  42 characters long. Several apps and APIs are also meant to implement the new `checksum-enabled address scheme <https://github.com/ethereum/EIPs/issues/55>`_  introduced in the Mist Ethereum wallet as of version 0.5.0.
 
 .. _hexadecimal:
 
@@ -67,7 +67,7 @@ Glossary
       Common representation format for byte sequencing. Its advantage is that values are represented in a compact format using two characters per byte (the characters ``[0-9][a-f]``).
 
    ether
-      Ether is the name of the currency used within Ethereum. It is used to pay for computations within the EVM. Ambiguously, ether is also the name of a unit in the system;
+      Ether is the name of the currency used within SmartCash. It is used to pay for computations within the EVM. Ambiguously, ether is also the name of a unit in the system;
 
 .. _EOA:
 
@@ -77,7 +77,7 @@ Glossary
 .. _gas:
 
    gas
-      Name for the `cryptofuel` that is consumed when code is executed by the EVM. The gas is paid for execution fee for every operation made on an Ethereum blockchain.
+      Name for the `cryptofuel` that is consumed when code is executed by the EVM. The gas is paid for execution fee for every operation made on an SmartCash blockchain.
 
 
 .. _gas limit:
@@ -94,7 +94,7 @@ Glossary
       The signed data package that stores a message to be sent from an externally owned account. Simply put, a transaction describes a transfer of information from an EOA to another EOA or a contract account.
 
    message
-      A data transfer mechanism contracts use to communicate with other contracts. Messages can also be described as virtual objects that are never serialized and exist only in the Ethereum execution environment.
+      A data transfer mechanism contracts use to communicate with other contracts. Messages can also be described as virtual objects that are never serialized and exist only in the SmartCash execution environment.
 
    Web3
       The exact definition of the Web3 paradigm is still taking form, but it generally refers to the phenomenon of increased connectedness between all kinds of devices, decentralization of services and applications, semantic storage of information online and application of artificial intelligence to the web.
@@ -109,13 +109,13 @@ Glossary
       Refers to an approach to public-key cryptography based on the algebraic structure of elliptic curves over finite fields. See `elliptic curve cryptography <https://en.wikipedia.org/wiki/Elliptic_curve_cryptography>`_.
 
    wallet
-      A wallet, in the most generic sense, refers to anything that can store ether or any other crypto token. In the crypto space in general, the term wallet is used to mean anything from a single private/public key pair (like a single paper wallet) all the way to applications that manage multiple key pairs, like the Mist Ethereum wallet.
+      A wallet, in the most generic sense, refers to anything that can store ether or any other crypto token. In the crypto space in general, the term wallet is used to mean anything from a single private/public key pair (like a single paper wallet) all the way to applications that manage multiple key pairs, like the Mist SmartCash wallet.
 
    contract
-      A persistent piece of code on the Ethereum blockchain that encompasses a set of data and executable functions. These functions execute when Ethereum transactions are made to them with certain input parameters. Based on the input parameters, the functions will execute and interact with data within and outside of the contract.
+      A persistent piece of code on the SmartCash blockchain that encompasses a set of data and executable functions. These functions execute when SmartCash transactions are made to them with certain input parameters. Based on the input parameters, the functions will execute and interact with data within and outside of the contract.
 
    suicide
-      See self-destruct. ``selfdestruct`` acts as an alias to the deprecated ``suicide`` terminology in accordance with `EIP 6 \- Renaming SUICIDE OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_.
+      See self-destruct. ``selfdestruct`` acts as an alias to the deprecated ``suicide`` terminology in accordance with `EIP 6 \- Renaming SUICIDE OPCODE <https://github.com/SmartCash/EIPs/blob/master/EIPS/eip-6.md>`_.
 
    selfdestruct
       A global variable in the Solidity language that allows you to `\"destroy the current contract, sending its funds to the given address\" <https://solidity.readthedocs.org/en/latest/miscellaneous.html#global-variables>`_. ``selfdestruct`` acts as an alias to the deprecated ``suicide`` terminology in accordance with `EIP 6 \- Renaming SUICIDE OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_. It frees up space on the blockchain and prevents future execution of the contract. The contract's address will still persist, but ether sent to it will be lost forever. The possibility to kill a contract has to be implemented by the contract creator him/herself using the Solidity ``selfdestruct`` function.
@@ -124,7 +124,7 @@ Glossary
       Also known as gas cost, it is the amount of ether that the miners will charge for the execution of your transaction.
 
    mining
-      The process of verifying transactions and contract execution on the Ethereum blockchain in exchange for a reward in ether with the mining of every block.
+      The process of verifying transactions and contract execution on the SmartCash blockchain in exchange for a reward in ether with the mining of every block.
 
    mining pool
       The pooling of resources by miners, who share their processing power over a network, to split the reward equally, according to the amount of work they contributed to solving a block.
@@ -139,7 +139,7 @@ Glossary
       An ever-extending series of data blocks that grows as new transactions are confirmed as part of a new block. Each new block is chained to the existing blockchain by a cryptographic proof-of-work.
 
    peer
-      Other computers on the network also running an Ethereum node (Geth) with an exact copy of the blockchain that you have.
+      Other computers on the network also running an SmartCash node (Geth) with an exact copy of the blockchain that you have.
 
    signing
       Producing a piece of data from the data to be signed using your private key, to prove that the data originates from you.
@@ -151,7 +151,7 @@ Glossary
       A helper function of the Geth client that tries to find an appropriate default gas price when sending transactions.
 
    light client
-      A client program that allows users in low-capacity environments to still be able to execute and check the execution of transactions without needing to run a full Ethereum node (Geth).
+      A client program that allows users in low-capacity environments to still be able to execute and check the execution of transactions without needing to run a full SmartCash node (Geth).
 
    etherbase
       It is the default name of the account on your node that acts as your primary account. If you do mining, mining rewards will be credited to this account.
@@ -163,13 +163,13 @@ Glossary
       The amount of cryptocurrency (in this case) belonging to an account.
 
    solidity
-      Solidity is a high-level language whose syntax is similar to that of JavaScript and it is designed to compile to code for the Ethereum Virtual Machine.
+      Solidity is a high-level language whose syntax is similar to that of JavaScript and it is designed to compile to code for the SmartCash Virtual Machine.
 
    serpent
-      Serpent is a high-level language whose syntax is similar to that of Python and it is designed to compile to code for the Ethereum Virtual Machine.
+      Serpent is a high-level language whose syntax is similar to that of Python and it is designed to compile to code for the SmartCash Virtual Machine.
 
    EVM
-      Ethereum Virtual Machine, the decentralized computing platform which forms the core of the Ethereum platform.
+      SmartCash Virtual Machine, the decentralized computing platform which forms the core of the SmartCash platform.
 
    virtual machine
       In computing, it refers to an emulation of a particular computer system.
@@ -200,28 +200,28 @@ Glossary
       Casper is a security-deposit based economic consensus protocol. This means that nodes, so called “bonded validators”, have to place a security deposit (an action we call “bonding”) in order to serve the consensus by producing blocks. If a validator produces anything that Casper considers “invalid”, the deposit is forfeited along with the privilege of participating in the consensus process.
 
    consensus
-      The agreement among all nodes in the network about the state of the Ethereum network.
+      The agreement among all nodes in the network about the state of the SmartCash network.
 
    homestead
-      Homestead is the second major version release of the Ethereum platform. Homestead includes several protocol changes and a networking change that makes possible further network upgrades: `EIP\-2 Main homestead hardfork changes <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_; `EIP\-7 Hardfork EVM update (DELEGATECALL) <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md>`_; `EIP\-8 devp2p forward compatibility <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md>`_. Homestead will launch when block 1,150,000 is reached on the Mainnet. On the Testnet, Homestead will launch at block 494,000.
+      Homestead is the second major version release of the SmartCash platform. Homestead includes several protocol changes and a networking change that makes possible further network upgrades: `EIP\-2 Main homestead hardfork changes <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_; `EIP\-7 Hardfork EVM update (DELEGATECALL) <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md>`_; `EIP\-8 devp2p forward compatibility <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md>`_. Homestead will launch when block 1,150,000 is reached on the Mainnet. On the Testnet, Homestead will launch at block 494,000.
 
    metropolis
-      The third stage of Ethereum's release. This is the stage when the user interfaces come out (e.g. Mist), including a dapp store, and non-technical users should feel comfortable joining at this point.
+      The third stage of SmartCash's release. This is the stage when the user interfaces come out (e.g. Mist), including a dapp store, and non-technical users should feel comfortable joining at this point.
 
    serenity
-      The fourth stage of Ethereum's release. This is when things are going to get fancy: the network is going to change its mining process from Proof-of-Work to Proof-of-Stake.
+      The fourth stage of SmartCash's release. This is when things are going to get fancy: the network is going to change its mining process from Proof-of-Work to Proof-of-Stake.
 
    frontier
-      Ethereum was planned to be released in four major steps with Frontier being the name for the first phase. The Frontier release went live on July 30th, 2015. The command line Frontier phase was mainly meant to get mining operations going with the full reward of 5 ether per block and also to promote the emergence of ether exchanges. Frontier surpassed earlier modest expectations and has nurtured tremendous growth of the ecosystem.
+      SmartCash was planned to be released in four major steps with Frontier being the name for the first phase. The Frontier release went live on July 30th, 2015. The command line Frontier phase was mainly meant to get mining operations going with the full reward of 5 ether per block and also to promote the emergence of ether exchanges. Frontier surpassed earlier modest expectations and has nurtured tremendous growth of the ecosystem.
 
    olympic
-      The Frontier pre-release, which launched on May 9th 2015. It was meant for developers to help test the limits of the Ethereum blockchain.
+      The Frontier pre-release, which launched on May 9th 2015. It was meant for developers to help test the limits of the SmartCash blockchain.
 
    morden
-      Morden is the first Ethereum alternative testnet. It is expected to continue throughout the Frontier and Homestead era.
+      Morden is the first SmartCash alternative testnet. It is expected to continue throughout the Frontier and Homestead era.
 
    testnet
-      A mirror network of the production Ethereum network that is meant for testing. See Morden.
+      A mirror network of the production SmartCash network that is meant for testing. See Morden.
 
    private chain
       A fully private blockchain is a blockchain where write permissions are kept centralized to one organization.
@@ -260,7 +260,7 @@ Glossary
       The number of hash calculations made per second.
 
    serialization
-      The process of converting a data structure into a sequence of bytes. Ethereum internally uses an encoding format called recursive-length prefix encoding (RLP), described in the `RLP section of the wiki <https://github.com/ethereum/wiki/wiki/RLP>`_.
+      The process of converting a data structure into a sequence of bytes. SmartCash internally uses an encoding format called recursive-length prefix encoding (RLP), described in the `RLP section of the wiki <https://github.com/ethereum/wiki/wiki/RLP>`_.
 
    double spend
       A deliberate blockchain fork, where a user with a large amount of mining power sends a transaction to purchase some produce, then after receiving the product creates another transaction sending the same coins to themselves. The attacker then creates a block, at the same level as the block containing the original transaction but containing the second transaction instead, and starts mining on the fork. If the attacker has more than 50% of all mining power, the double spend is guaranteed to succeed eventually at any block depth. Below 50%, there is some probability of success, but it is usually only substantial at a depth up to about 2-5; for this reason, most cryptocurrency exchanges, gambling sites and financial services wait until six blocks have been produced ("six confirmations") before accepting a payment.
@@ -269,7 +269,7 @@ Glossary
     A client that downloads only a small part of the blockchain, allowing users of low-power or low-storage hardware like smartphones and laptops to maintain almost the same guarantee of security by sometimes selectively downloading small parts of the state without needing to spend megabytes of bandwidth and gigabytes of storage on full blockchain validation and maintenance. See light client.
 
    uncle
-      Uncles are blockchain blocks found by a miner, when a different miner has already found another block for the corresponding place in the blockchain. They are called “stale blocks”. The parent of an Uncle is an ancestor of the inserting block, located at the tip of the blockchain. In contrast to the Bitcoin network, Ethereum rewards stale blocks as well in order to avoid to penalize miners with a bad connection to the network. This is less critical in the Bitcoin network, because the Block Time there is much higher (~10 minutes) than on the Ethereum network (aimed to ~15 seconds).
+      Uncles are blockchain blocks found by a miner, when a different miner has already found another block for the corresponding place in the blockchain. They are called “stale blocks”. The parent of an Uncle is an ancestor of the inserting block, located at the tip of the blockchain. In contrast to the Bitcoin network, SmartCash rewards stale blocks as well in order to avoid to penalize miners with a bad connection to the network. This is less critical in the Bitcoin network, because the Block Time there is much higher (~10 minutes) than on the SmartCash network (aimed to ~15 seconds).
 
    GHOST
       Greedy Heaviest-Observed Sub-Tree is an alternative chain-selection method that is designed to incentivize stale blocks (uncles) as well, thus reducing the incentive for pool mining. In GHOST, even the confirmation given by stale blocks to previous blocks are considered valid, and the miners of the stale blocks are also rewarded with a mining reward.
@@ -278,7 +278,7 @@ Glossary
       Merkle Patricia trees provide a cryptographically authenticated data structure that can be used to store all (key, value) bindings. They are fully deterministic, meaning that a Patricia tree with the same (key,value) bindings is guaranteed to be exactly the same down to the last byte and therefore have the same root hash, provide O(log(n)) efficiency for inserts, lookups and deletes, and are much easier to understand and code than more complex comparison-based alternatives like red-black trees.
 
    DAG
-      DAG stands for Directed Acyclic Graph. It is a graph, a set of nodes and links between nodes, that has very special properties. Ethereum uses a DAG in Ethash, the Ethereum Proof of Work (POW) algorithm.The Ethash DAG takes a long time to be generated, which is done by a Miner node into a cache file for each Epoch. The file data is then used when a value from this graph is required by the algorithm.
+      DAG stands for Directed Acyclic Graph. It is a graph, a set of nodes and links between nodes, that has very special properties. SmartCash uses a DAG in Ethash, the SmartCash Proof of Work (POW) algorithm.The Ethash DAG takes a long time to be generated, which is done by a Miner node into a cache file for each Epoch. The file data is then used when a value from this graph is required by the algorithm.
 
    uncle rate
       The number of uncles produced per block.
@@ -290,10 +290,10 @@ Glossary
       Sale of cryptocurrency before the actual launch of the network.
 
    static node
-      A feature supported by Geth, the Golang Ethereum client, which makes it possible to always connect to specific peers. Static nodes are re-connected on disconnects. For details, see the :ref:`section on static nodes <cr-static-nodes>`.
+      A feature supported by Geth, the Golang SmartCash client, which makes it possible to always connect to specific peers. Static nodes are re-connected on disconnects. For details, see the :ref:`section on static nodes <cr-static-nodes>`.
 
    bootnode
-      The nodes which can be used to initiate the discovery process when running a node. The endpoints of these nodes are recorded in the Ethereum source code.
+      The nodes which can be used to initiate the discovery process when running a node. The endpoints of these nodes are recorded in the SmartCash source code.
 
    exchange
       An online marketplace which facilitates the exchange of crypto or fiat currencies based on the market exchange rate.
@@ -305,13 +305,13 @@ Glossary
       The first block in a blockchain.
 
    network id
-      A number which identifies a particular version of the Ethereum network.
+      A number which identifies a particular version of the SmartCash network.
 
    block header
       The data in a block which is unique to its content and the circumstances in which it was created. It includes the hash of the previous block's header, the version of the software the block is mined with, the timestamp and the merkle root hash of the contents of the block.
 
    pending transaction
-      A transaction that is not yet confirmed by the Ethereum network.
+      A transaction that is not yet confirmed by the SmartCash network.
 
    block propagation
       The process of transmitting a confirmed block to all other nodes in the network.
@@ -359,7 +359,7 @@ Glossary
       Interprocess communication (IPC) is a set of programming interfaces that allow a programmer to coordinate activities among different program processes that can run concurrently in an operating system.
 
    attach
-      The command used to initiate the Ethereum Javascript console.
+      The command used to initiate the SmartCash Javascript console.
 
    daemon
       A computer program that runs as a background process instead of in direct control by an interactive user.
@@ -368,7 +368,7 @@ Glossary
       See base layer service
 
    base layer service
-      Services such as SWARM and Whisper which are built into the Ethereum platform.
+      Services such as SWARM and Whisper which are built into the SmartCash platform.
 
    js
       Javascript.
@@ -395,44 +395,44 @@ Glossary
       A website that allows easy searching and extraction of data from the blockchain.
 
    geth
-      Ethereum client implemented in the Golang programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Golang programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    eth
-      Ethereum client implemented in the C++ programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the C++ programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    ethereumjs
-      Ethereum client implemented in the Javascript/Node programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Javascript/Node programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    pyethereum
-      Ethereum client implemented in the Python programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Python programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    ethereumj
-      Ethereum client implemented in the Java programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Java programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    ethereumh
-      Ethereum client implemented in the Haskell programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Haskell programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    parity
-      Ethereum client implemented in the Rust programming language, based on the protocol as defined in the Ethereum Yellow Paper.
+      SmartCash client implemented in the Rust programming language, based on the protocol as defined in the SmartCash Yellow Paper.
 
    difficulty
       In very general terms, the amount of effort required to mine a new block. With the launch of Homestead, the `difficulty adjustment algorithm will change <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.md>`_.
 
    account
-      Accounts are a central part of the Ethereum network and are an essential part of any transaction or contract. In Ethereum, there are two types of accounts: Externally Owned accounts (EOA) and Contract accounts.
+      Accounts are a central part of the SmartCash network and are an essential part of any transaction or contract. In SmartCash, there are two types of accounts: Externally Owned accounts (EOA) and Contract accounts.
 
    HLL (obsolete)
-      Acronym for Higher Level Language, which is what Serpent and Solidity are. HLL is what early Ðapp developers called Ethereum programming languages that did not touch the low level elements. This phrase has been phased out.
+      Acronym for Higher Level Language, which is what Serpent and Solidity are. HLL is what early Ðapp developers called SmartCash programming languages that did not touch the low level elements. This phrase has been phased out.
 
    CLL (obsolete)
       Acronym for C Like Language, which Mutan was. This acronym has been phased out.
 
    ES1, ES2, and ES3 (obsolete)
-      "Ethereum Script" versions 1,2 and 3. There were early versions of what would become the Ethereum Virtual Machine (EVM).
+      "SmartCash Script" versions 1,2 and 3. There were early versions of what would become the SmartCash Virtual Machine (EVM).
 
    log event
       Contracts are triggered by transactions executed as part of the block verification. If conceived of as a function call, contract execution is asynchronous, and therefore they have no return value. Instead contracts communicate to the outside world with log events. The log events are part of the transaction receipt which is produced when the transaction is executed.
-      The receipts are stored in the receipt trie, the integrity of which is guaranteed by the fact that the current root of the receipt trie is part of the block header alongside the roots of state and state-trie. In a broad sense from the external perspective receipts are part of the Ethereum system state except that they are not readable contracts internally.
+      The receipts are stored in the receipt trie, the integrity of which is guaranteed by the fact that the current root of the receipt trie is part of the block header alongside the roots of state and state-trie. In a broad sense from the external perspective receipts are part of the SmartCash system state except that they are not readable contracts internally.
 
    .. hardware wallet
    .. brain wallet
